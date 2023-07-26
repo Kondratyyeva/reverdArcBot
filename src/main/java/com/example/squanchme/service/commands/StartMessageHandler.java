@@ -4,5 +4,6 @@ public class StartMessageHandler implements CommandMessageHandler{
     @Override
     public void handleMessage() {
 
+
     }
 }

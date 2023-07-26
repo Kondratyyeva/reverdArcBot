@@ -5,14 +5,14 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
 
+
 @Configuration
 @Data
-@PropertySource("properties")
+@PropertySource("application.properties")
 public class BotConfig {
     @Value("${bot.name}")
-    private final String botName;
-    @Value("${bot.tocken}")
-    private final String botTocken;
-
+    private String botName;
+    @Value("${bot.token}")
+    private String botToken;
 
 }

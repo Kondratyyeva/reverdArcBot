@@ -42,7 +42,7 @@ public class RevengeArcBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return botConfig.getBotTocken();
+        return botConfig.getBotToken();
     }
 
 
